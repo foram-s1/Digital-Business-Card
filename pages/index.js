@@ -24,7 +24,7 @@ export default function Home() {
 			<div className="col-12 mb-3 mb-lg-0 p-0 border border-dark col-lg-4">
 				<div className="row">
 					<div className="col-12 p-0">
-						<Carousel showThumbs={false} showArrows={false} autoPlay={true} interval={3000} infiniteLoop={true} showStatus={false}>
+						<Carousel showThumbs={false} showArrows={false} showIndicators={false} autoPlay={true} interval={3000} infiniteLoop={true} showStatus={false}>
 							<div className="container-fluid">
 								<img src="/pic.png" alt="image1"/>
 							</div>
@@ -54,7 +54,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="row justify-content-around text-center">
+				<div className="row justify-content-around text-center p-2">
 					<p className="description">Nirav Shah</p>
 					<p className="sub-title">Independent Distributor</p>
 					<div className="col-12 yt">
@@ -64,7 +64,7 @@ export default function Home() {
 					</div>	
 				</div>
 			</div>
-			<div className="col-12 col-lg-8 mb-3">
+			<div className="col-12 col-lg-8 mb-5">
 				<div className="row">
 					<div className="col-12 text-center p-5">
 						<div className="accordion accordian-flush" id="accordionExample">
@@ -85,19 +85,19 @@ export default function Home() {
 				</div>
 				<div className="row justify-content-around">
 					<div className="col-auto"> 
-						<button type="button"  className="btn me-2 rounded-circle btn-primary"> 
+						<button type="button"  className="btn me-2 rounded-circle btn-danger"> 
 							<a href="mailto:niravshah1969@gmail.com"><EmailIcon/></a> 
 						</button> 
-						<button type="button" className="btn me-2 btn-dark rounded-circle btn-icon"> 
+						<button type="button" className="btn me-2 btn-primary rounded-circle btn-icon"> 
 							<a href="https://www.instagram.com/nirav_kangen/"><InstagramIcon/></a>
 						</button> 
-						<button type="button" className="btn me-2 btn-danger rounded-circle btn-icon"> 
+						<button type="button" className="btn me-2 btn-success rounded-circle btn-icon"> 
 							<a href="tel:6351013103"><CallIcon/></a>
 						</button> 
-						<button type="button" className="btn me-2 btn-info rounded-circle btn-icon"> 
+						<button type="button" className="btn me-2 btn-warning rounded-circle btn-icon"> 
 							<a href="https://www.facebook.com/niravkumarharishbhai.shah"><FacebookIcon/></a> 
 						</button> 
-						<button type="button" className="btn me-2 btn-success rounded-circle btn-icon"> 
+						<button type="button" className="btn me-2 btn-dark rounded-circle btn-icon"> 
 							<a href="https://www.youtube.com/channel/UCRUdyngIHI08gkTqk_HDG1A"><YouTubeIcon/></a> 
 						</button> 
 					</div>
@@ -285,6 +285,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
+			overflow-x: hidden;
           padding: 0;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
