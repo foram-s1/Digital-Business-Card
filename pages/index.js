@@ -26,23 +26,23 @@ export default function Home() {
 					<div className="col-12 p-0">
 						<Carousel showThumbs={false} showArrows={false} autoPlay={true} interval={3000} infiniteLoop={true} showStatus={false}>
 							<div className="container-fluid">
-								<img src="/pic1.png" alt="image1"/>
+								<img src="/pic.png" alt="image1"/>
 							</div>
 							
 							<div className="container-fluid">
-								<img src="/pic2.png" alt="image2" />
+								<img src="/pic1.jpeg" alt="image2" />
 							</div>
 
 							<div className="container-fluid">
-								<img src="/pic1.png" alt="image3"/>
+								<img src="/pic2.jpeg" alt="image3"/>
 							</div>
 
 							<div className="container-fluid">
-								<img src="/pic2.png" alt="image4"/>
+								<img src="/pic3.jpg" alt="image4"/>
 							</div>
 
 							<div className="container-fluid">
-								<img src="/pic1.png" alt="image5"/>
+								<img src="/pic4.jpeg" alt="image5"/>
 							</div>
 						</Carousel>
 					</div>
@@ -50,7 +50,7 @@ export default function Home() {
 				<div className="row">
 					<div className="col-12">
 						<div className="container-img">
-							<img src="/pic1.png"/>
+							<img src="/profile.jpeg"/>
 						</div>
 					</div>
 				</div>
@@ -85,20 +85,20 @@ export default function Home() {
 				</div>
 				<div className="row justify-content-around">
 					<div className="col-auto"> 
-						<button type="button" className="btn me-2 rounded-circle btn-primary"> 
-							<EmailIcon/> 
+						<button type="button"  className="btn me-2 rounded-circle btn-primary"> 
+							<a href="mailto:niravshah1969@gmail.com"><EmailIcon/></a> 
 						</button> 
 						<button type="button" className="btn me-2 btn-dark rounded-circle btn-icon"> 
-							<InstagramIcon/>
+							<a href="https://www.instagram.com/nirav_kangen/"><InstagramIcon/></a>
 						</button> 
 						<button type="button" className="btn me-2 btn-danger rounded-circle btn-icon"> 
-							<CallIcon/>
+							<a href="tel:6351013103"><CallIcon/></a>
 						</button> 
 						<button type="button" className="btn me-2 btn-info rounded-circle btn-icon"> 
-							<FacebookIcon/> 
+							<a href="https://www.facebook.com/niravkumarharishbhai.shah"><FacebookIcon/></a> 
 						</button> 
 						<button type="button" className="btn me-2 btn-success rounded-circle btn-icon"> 
-							<YouTubeIcon/> 
+							<a href="https://www.youtube.com/channel/UCRUdyngIHI08gkTqk_HDG1A"><YouTubeIcon/></a> 
 						</button> 
 					</div>
 				</div>
