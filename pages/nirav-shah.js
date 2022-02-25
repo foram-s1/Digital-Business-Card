@@ -13,10 +13,11 @@ export default function NiravShah() {
 	return(	
     <div className="container ">
      	<Head>
-		 	<meta property="og:image" content="/profile.jpeg"></meta>
-			 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+            <meta property="og:title" content="Nirav Shah"></meta>
+            <meta property="og:description" content="Digital Business Card for Kangen Water"></meta>
+		 	<meta property="og:image" content="https://i.ibb.co/qF3zNkN/profile.jpg"/>
 		 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-          	<link rel="icon" href="/favicon.ico" />
+          	<link rel="icon" href="/favicon.ico"/>
       	</Head>
 
       <main>
